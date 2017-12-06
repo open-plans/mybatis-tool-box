@@ -7,7 +7,7 @@
 
 ## 如何使用
 
-> maven 依赖  (正在提交阿里云镜像库中。。。)
+> 1、maven 依赖  (正在提交阿里云镜像库中。。。)
 ```
 		<dependency>
 			<groupId>org.kd</groupId>
@@ -16,7 +16,7 @@
 		</dependency>
 ```
 
-> 在 mybatis mybatisConfig.xml 添加
+> 2、在 mybatis mybatisConfig.xml 添加
 ```
 	<plugins> 
 		<!-- 打印完整sql语句   mysad -->
@@ -24,7 +24,7 @@
 	</plugins>  
 ```
 
-> 测试 -控制台输出
+> 3、测试 -控制台输出-(mysql)
 ```
 ========================================================
 https://hpit-bat.github.io/hpit-BAT-home/
