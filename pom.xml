@@ -3,12 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.kd</groupId>
 	<artifactId>mybatis-tool-box</artifactId>
-	<version>1.0-M1</version>
+	<version>1.0-M4</version>
 	<properties>
 		<!-- mybatis版本号 -->
 		<mybatis.version>3.4.2</mybatis.version>
 		<!-- jdk版本 -->
 		<jdk.version>1.8</jdk.version>
+		<!-- 编码 -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
 	</properties>
 	<dependencies>
 		<!-- mybatis核心包 -->
@@ -73,7 +75,7 @@
 		<repository>
 			<id>bintray-kd-maven</id>
 			<name>kd-maven</name>
-			<url>https://api.bintray.com/maven/kd/maven/ssh-base/;publish=1</url>
+			<url>https://api.bintray.com/maven/kd/maven/mybatis-tool-box/;publish=1</url>
 		</repository>
 	</distributionManagement>
 </project>
