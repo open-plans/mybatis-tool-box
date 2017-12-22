@@ -7,12 +7,12 @@
 
 ## 如何使用
 
-> 1、maven 依赖  (正在提交阿里云镜像库中。。。)
+> 1、maven 依赖  (已提交到阿里云镜像库)
 ```
 		<dependency>
 			<groupId>org.kd</groupId>
 			<artifactId>mybatis-tool-box</artifactId>
-			<version>1.0-M1</version>
+			<version>1.0-M4</version>
 		</dependency>
 ```
 
@@ -20,7 +20,7 @@
 ```
 	<plugins> 
 		<!-- 打印完整sql语句   mysad -->
-		<plugin interceptor="org.kd.interceptor.MybatisAutoSql" />
+		<plugin interceptor="org.kd.intercepts.MybatisAutoSql" />
 	</plugins>  
 ```
 
