@@ -42,7 +42,7 @@ public class MybatisAutoSql implements Interceptor {
         long start = System.currentTimeMillis();
         String sql = getSql(configuration, boundSql, sqlId);
         System.err.println("========================================================");
-        System.err.println("https://hpit-bat.github.io/hpit-BAT-home"+"[kd与你同在]");
+        System.err.println("https://hpit-bat.github.io/hpit-BAT-home"+"[隐无为]");
         System.err.println("========================================================");
         System.err.println("执行XML方法:"+sqlId);
         System.err.println("执行的完整的sql语句-------------------mysad");

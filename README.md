@@ -12,7 +12,7 @@
 		<dependency>
 			<groupId>org.kd</groupId>
 			<artifactId>mybatis-tool-box</artifactId>
-			<version>1.0-M4</version>
+			<version>1.0-M5</version>
 		</dependency>
 ```
 
