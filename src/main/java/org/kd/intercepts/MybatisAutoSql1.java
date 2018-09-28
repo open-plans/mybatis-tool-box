@@ -21,13 +21,13 @@ import org.apache.ibatis.session.ResultHandler;
 import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.type.TypeHandlerRegistry;
 /**
- * MyBatis 性能拦截器，用于输出每条 SQL 语句及其执行时间
+ * MyBatis 性能拦截器，用于输出每条 SQL 语句及其执行时间  //第一版
  */
 @Intercepts({
         @Signature(type = Executor.class, method = "update", args = { MappedStatement.class, Object.class }),
         @Signature(type = Executor.class, method = "query", args = { MappedStatement.class, Object.class,
                 RowBounds.class, ResultHandler.class }) })
-public class MybatisAutoSql implements Interceptor {
+public class MybatisAutoSql1 implements Interceptor {
  
     public Object intercept(Invocation invocation) throws Throwable {
         MappedStatement mappedStatement = (MappedStatement) invocation.getArgs()[0];
@@ -75,7 +75,7 @@ public class MybatisAutoSql implements Interceptor {
             if (obj != null) {
                 value = obj.toString();
             } else {
-                value = "";
+                value = "null";
             }
  
         }

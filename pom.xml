@@ -3,14 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.kd</groupId>
 	<artifactId>mybatis-tool-box</artifactId>
-	<version>1.0-M5</version>
+	<version>1.0-M9-t1</version>
 	<properties>
 		<!-- mybatis版本号 -->
 		<mybatis.version>3.4.2</mybatis.version>
 		<!-- jdk版本 -->
 		<jdk.version>1.8</jdk.version>
 		<!-- 编码 -->
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<!-- mybatis核心包 -->
@@ -20,6 +20,31 @@
 			<version>${mybatis.version}</version>
 		</dependency>
 	</dependencies>
+
+	<!--upload info -->
+	<name>mybatis-tool-box</name>
+	<description>mybatis-tool-box is update</description>
+	<url>https://github.com/hpit-BAT/mybatis-tool-box</url>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>mysad</name>
+			<email>kedong529@163.com</email>
+			<organization>bat</organization>
+			<organizationUrl>https://github.com/hpit-BAT</organizationUrl>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git://github.com/hpit-BAT/mybatis-tool-box.git</connection>
+		<developerConnection>scm:git:ssh://github.com:hpit-BAT/mybatis-tool-box.git</developerConnection>
+		<url>http://github.com/hpit-BAT/mybatis-tool-box/tree/master</url>
+	</scm>
+
 	<build>
 		<plugins>
 			<plugin>
